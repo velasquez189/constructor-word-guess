@@ -25,14 +25,14 @@ function Letter(charVal) {
 
 module.exports = Letter;
 
-function test() {
-    var newLetter = new Letter("a");
-    var andreasLetter = new Letter('v');
-    andreasLetter.showLetter();
-    andreasLetter.checkLetter('d');
-    andreasLetter.showLetter();
-    andreasLetter.checkLetter('v');
-    andreasLetter.showLetter()
-}
-test();
+// function test() {
+//     var newLetter = new Letter("a");
+//     var andreasLetter = new Letter('v');
+//     andreasLetter.showLetter();
+//     andreasLetter.checkLetter('d');
+//     andreasLetter.showLetter();
+//     andreasLetter.checkLetter('v');
+//     andreasLetter.showLetter()
+// }
+// test();
 
